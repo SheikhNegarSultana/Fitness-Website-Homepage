@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.Shape{
+    font-family: 'Miama', sans-serif;
+    font-size : 4.875rem;
+    font-weight: 400;
+    line-height: 0;
+}
+
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Shared Styles */
+body{
+    background-color: black;
+}
+
+.max-width{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/* Banner Design */
+
+header{
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(119, 119, 119, 0.5),rgb(0, 0, 0));
+    padding-top: 57px;
+}
+
+/* Banner Navigation Design */
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 47px;
+}
+
+.right-nav{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 4px;
+    
+}
+
+.fitness{
+    color: #E6533C;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2.25rem;
+}
+
+.nav-text{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.home{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: #E6533C;
+    padding: 8px 24px ;
+    border-radius: 46px;
+
+}
+
+/* Banner Navigation Design End */
+
+/* Banner Content Design */
+.banner-content{
+    margin-top: 96px;
+    max-width: 520px;
+}
+
+.Banner-heading{
+    font-size: 4.875rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.Banner-para{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.join-club{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: #E6533C;
+    padding: 16px 46.5px ;
+    border-radius: 42px;
+    border: none;
+}
+
+.Download{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: transparent;
+    padding: 16px 48px ;
+    border-radius: 42px;
+    border: 1px solid white;
+}
+.Banner-btn{
+    display: flex;
+    gap: 14px;
+}
+.banner-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-350{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    
+}
+
+.video{
+    border-radius: 12px;
+    width: 206px;
+    height: 96px;
+    background: rgba(48, 48, 48, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 23px;
+    gap: 12px;
+    position: relative;
+    margin-left: 70px ;
+    margin-top: -163px;
+}
+
+.tutorial{
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: 400;
+    
+}
+
+.number-500{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.Free{
+    border-radius: 12px;
+    width: 193px;
+    height: 98px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 16px;
+    position: relative;
+    top: -400px;
+    margin-left: 380px;
+}
+
+.work{
+    font-size: 0.81rem;
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: 400;
+}
+
+.red{
+    background: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.banner-pic{
+    height: 580px;
+
+}
+
+.pic-fix{
+    margin-left: 60px;
+    margin-top: 32px;
+    margin-left: 167px;
+}
+
+.icon{
+    display: none;
+}
+
+
+
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+    header{
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .right-nav , .cut{
+        display: none;
+
+    }
+
+    .icon{
+        display: block;
+        width: 24px;
+    }
+    
+    .banner-flex{
+        flex-direction: column;
+    }
+    
+    .Banner-heading , .Shape{
+        font-size: 2.25rem;
+    }
+    .banner-content{
+        margin-top: 51px;
+    }
+
+    .Banner-para{
+        align-items: center;
+    }
+
+    .join-club ,
+    .Download{
+    padding: 16px 41px ;
+    width: 169px;
+    height: 54px;
+    font-size: 0.76rem;
+    }
+
+    
+    .Banner-btn{
+        flex: 1;
+        gap: 14px;
+    }
+
+    .pic-fix{
+        width: 90%;
+        margin-left: 60px;
+        margin-top: 32px;
+        }
+
+        .video{
+            width: 155px;
+            height: 72px;
+            padding: 15px 18px;
+            margin-left: 60px ;
+            margin-top: -340px;
+        }
+
+        
+        .number-500 {
+            font-size: 1.1rem;
+        }
+        .tutorial{
+            font-size: 0.65rem;
+            padding: 0;
+        }
+        
+        .Free{
+            width: 145px;
+            height: 74px;
+            padding-bottom: 16px;
+            position: relative;
+            top: -290px;
+            margin-left: 260px;
+        }
+
+
+    }
+    
+    
