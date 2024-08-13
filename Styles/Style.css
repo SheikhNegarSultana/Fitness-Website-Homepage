@@ -136,13 +136,10 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
-
 .number-350{
     font-size: 1.5rem;
     color: #FFFFFF;
     font-weight: 800;
-  
-    
 }
 
 .video{
@@ -215,42 +212,89 @@ ul{
     display: none;
 }
 
+.icons{
+    padding: 40%;
+    padding-top: 18px;
+    padding-left: 14px;
+}
+/* Banner Content Design Done */
 
+/* //Change Habits Section// */
+.max-width-2{
+    max-width: 1440px;
+    margin-top: 100px;
+    
+}
+.change-habits{
+    align-items: center;
+    padding: 100px 198px;
+}
+.habit-head{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habit-para{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.round-pic{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.pic-head{
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.change-habits-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 66px;
+}
 
+/*// Change Habits Section Done// */
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
+
+    /* Banner  Repository*/
     header{
         margin: 0 auto;
         padding-left: 20px;
         padding-right: 20px;
     }
-
     .right-nav , .cut{
         display: none;
 
     }
-
     .icon{
         display: block;
-        width: 24px;
+        
     }
-    
+    .icons{
+        padding: 44%;
+        padding-left: 16px;
+    }
     .banner-flex{
         flex-direction: column;
     }
-    
     .Banner-heading , .Shape{
         font-size: 2.25rem;
     }
     .banner-content{
         margin-top: 51px;
     }
-
     .Banner-para{
         align-items: center;
     }
-
     .join-club ,
     .Download{
     padding: 16px 41px ;
@@ -258,19 +302,15 @@ ul{
     height: 54px;
     font-size: 0.76rem;
     }
-
-    
     .Banner-btn{
         flex: 1;
         gap: 14px;
     }
-
     .pic-fix{
         width: 90%;
         margin-left: 60px;
         margin-top: 32px;
         }
-
         .video{
             width: 155px;
             height: 72px;
@@ -278,8 +318,6 @@ ul{
             margin-left: 60px ;
             margin-top: -340px;
         }
-
-        
         .number-500 {
             font-size: 1.1rem;
         }
@@ -287,7 +325,6 @@ ul{
             font-size: 0.65rem;
             padding: 0;
         }
-        
         .Free{
             width: 145px;
             height: 74px;
@@ -296,6 +333,26 @@ ul{
             top: -290px;
             margin-left: 260px;
         }
+ /* Banner repository Done*/
+
+ /* //Change Habits Section repository// */
+ .change-habits{
+        align-items: center;
+        padding: 0px 28px;
+    }
+    .habit-head{
+        margin-top: 0;
+        font-size: 2rem;
+    }
+    .change-habits-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 0px;
+        padding-left: 107px;
+        padding-right: 106px;
+    }
+ /* //Change Habits Section repository Done// */
 
 
     }
