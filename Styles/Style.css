@@ -156,6 +156,7 @@ ul{
     position: relative;
     margin-left: 70px ;
     margin-top: -163px;
+   
 }
 
 .tutorial{
@@ -419,7 +420,6 @@ input[type="number"]{
 .hide{
     display: none;
 }
-
 .form-content{
     margin-top: 49px;
 }
@@ -428,13 +428,10 @@ input[type="number"]{
     gap: 12px;
     margin-bottom: 12px;
 }
-
 .chart-flex{
     display: flex;
     justify-content: space-between;
-
 }
-
 .cal-BMI-Head{
     color: white;
     font-size: 1.75rem;
@@ -456,7 +453,6 @@ input[type="number"]{
     width: 418px;
     margin-bottom: 34px;
 }
-
 .calculate{
     width: 224px;
     height: 54px;
@@ -465,6 +461,80 @@ input[type="number"]{
     padding: 16px 70px;
 }
 /* BMI Section Done */
+
+/* Meet The Team Design */
+.Team-content{
+    margin-top: 88px;
+    text-align: center;
+}
+.Team-Head{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.margin-bottom{
+    margin-bottom: 49px;
+}
+.team-para{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.team-photo-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1060px;
+    border-radius: 18px;
+    
+}
+.position{
+  position: relative;
+  width: 327px;
+  height: 272px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-left: 14px;
+}
+.position-2{
+ position: relative;
+  width: 327px;
+  height: 272px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-left: 14px;
+}
+.team-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter:brightness(80%);
+}
+
+.team-details{
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 19px;
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+#Trainer{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+/* Meet The Team Design Done */
+
 
 
 /* Responsive Media Query */
@@ -613,12 +683,11 @@ input[type="number"]{
 /* BMI Section */
 .BMI-Content{
     padding: 20px;
+    margin-bottom:13px;
 }
-
 .BMI-head{
     font-size: 2rem;
 }
-
 .chart{
     max-width: 310px;
     padding-top: 34px;
@@ -627,7 +696,6 @@ input[type="number"]{
     font-size: 1rem;
     margin-bottom: 23px;
 }
-
 td,th{
     padding: 14px;
     text-align: left;
@@ -639,12 +707,10 @@ table{
     margin-bottom: 20px;
     height: 216px;
     width: 340px;
-    
 }
 .mobile-pad{
     padding: 14px;
 }
-
 .chart-flex{
     display: flex;
     flex-direction: column;
@@ -656,12 +722,9 @@ table{
     margin: 0 auto;
     height: auto;
 }
-
 .form-content{
     width: 354px;
 }
-
-
 .form-content{
     margin-top: 49px;
 }
@@ -674,9 +737,7 @@ table{
 .chart-flex{
     display: flex;
     justify-content: space-between;
-
 }
-
 .cal-BMI-Head{
     font-size: 1rem;
     margin-left: 0px;
@@ -691,11 +752,9 @@ table{
     width: 353px;
     margin-bottom: 34px;
 }
-
 input[type="text"], select {
     width: 289px;
     padding: 12px 20px;
-    
 }
 input[type="number"]{
     padding: 13px;
@@ -706,6 +765,42 @@ input[type="number"]{
     height: 54px;
     font-size:1.125rem ;
     font-weight: 600;
+    margin-bottom: 43px;
 }
 /* BMI Section Done */
+
+/* Meet Team Section Repository */
+.Team-content{
+    margin-top: 85px;
+    
+}
+.Team-Head{
+    font-size: 2rem;
+}
+.margin-bottom{
+    margin-bottom: 37px;
+}
+
+.team-photo-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1060px;
+    border-radius: 18px;
+}
+.hidden{
+    display: none;
+}
+.position-2{
+  margin-bottom: 20px;
+}
+
+.team-details{
+  padding: 18px;
+}
+/* Meet Team Section Repository Done*/
 }  
