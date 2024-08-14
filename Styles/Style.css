@@ -347,6 +347,126 @@ ul{
 
 /* Special Section Done */
 
+/* BMI Section */
+.BMI-Content{
+    margin: 0 auto;
+    max-width: 671px;
+    margin-bottom: 88px;
+}
+.BMI-head{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.BMI-Para{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.form-bg{
+    background: rgba(34, 34, 34, 1);
+    padding-left: 187px;
+    padding-right: 189px;
+    margin: 0 auto;
+    height: 487px;
+}
+
+.chart{
+    max-width: 312px;
+    padding-top: 57px;
+}
+.Cal-head{
+    font-size: 1.75rem;
+    margin-bottom: 52px;
+}
+td,th{
+    padding: 13px 18px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.th-style{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form-content{
+    max-width: 577px;
+}
+input[type="text"], select {
+    width: 289px;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+input[type="number"]{
+    padding: 12px 20px;
+    width: 280px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+.hide{
+    display: none;
+}
+
+.form-content{
+    margin-top: 49px;
+}
+.form-1{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.chart-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cal-BMI-Head{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 14px;
+    margin-left: 175px;
+}
+.cal-BMI-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 34px;
+    margin-left: 175px;
+}
+.form{
+    margin-left: 175px;
+}
+.factor{
+    width: 418px;
+    margin-bottom: 34px;
+}
+
+.calculate{
+    width: 224px;
+    height: 54px;
+    font-size:1.125rem ;
+    font-weight: 500;
+    padding: 16px 70px;
+}
+/* BMI Section Done */
+
+
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
 
@@ -488,6 +608,104 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
 }
-
 /* Special Section Done */
+
+/* BMI Section */
+.BMI-Content{
+    padding: 20px;
+}
+
+.BMI-head{
+    font-size: 2rem;
+}
+
+.chart{
+    max-width: 310px;
+    padding-top: 34px;
+}
+.Cal-head{
+    font-size: 1rem;
+    margin-bottom: 23px;
+}
+
+td,th{
+    padding: 14px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 216px;
+    width: 340px;
+    
+}
+.mobile-pad{
+    padding: 14px;
+}
+
+.chart-flex{
+    display: flex;
+    flex-direction: column;
+}
+.form-bg{
+    background: rgba(34, 34, 34, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.form-content{
+    width: 354px;
+}
+
+
+.form-content{
+    margin-top: 49px;
+}
+.form-1{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.chart-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cal-BMI-Head{
+    font-size: 1rem;
+    margin-left: 0px;
+}
+.cal-BMI-para{
+    margin-left: 0px;
+}
+.form{
+    margin-left: 0px;
+}
+.factor{
+    width: 353px;
+    margin-bottom: 34px;
+}
+
+input[type="text"], select {
+    width: 289px;
+    padding: 12px 20px;
+    
+}
+input[type="number"]{
+    padding: 13px;
+    width: 200px;
+}
+.calculate{
+    width: 224px;
+    height: 54px;
+    font-size:1.125rem ;
+    font-weight: 600;
+}
+/* BMI Section Done */
 }  
