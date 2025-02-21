@@ -18,4 +18,4 @@ A while back, **Programming Hero** gave me an assignment to design a simple yet 
 
 ---
 ### Created By
-Designed as an assignment by **[Sheikh Negar Sultana]**, inspired by **Programming Hero**. 🚀
+Designed as an assignment by **[Sheikh Negar Sultana](https://github.com/SheikhNegarSultana)**, inspired by **[Programming Hero](https://github.com/ProgrammingHero1)**. 🚀
