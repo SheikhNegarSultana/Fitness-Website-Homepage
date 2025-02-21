@@ -14,7 +14,7 @@ A while back, **Programming Hero** gave me an assignment to design a simple yet 
 - **CSS3**: For styling and responsiveness
 
 ## Preview  
-[View Homepage Live]()
+[View Homepage Live](https://sheikhnegarsultana.github.io/Fitness-Website-Homepage/)
 
 ---
 ### Created By
